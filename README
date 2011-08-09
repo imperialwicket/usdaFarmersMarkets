@@ -4,6 +4,8 @@ It also includes two JSON files that detail the mildly scrubbed content from the
 
 Original Data Source:  http://search.ams.usda.gov/farmersmarkets/
 
+Inspiration for this repo/effort came from John Mertens' API work here: 
+    http://codeforamerica.org/2011/08/08/farmers-market-api/
 
 All of the content for what is available at each location is present in the JSON, but there is no 
 filtration present on the page (yet - I may come back to this).  Also, there are quite a few 
