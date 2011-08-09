@@ -1,0 +1,21 @@
+This project includes a demo Google Map using API V3 and MarkerClusterer.
+
+It also includes two JSON files that detail the mildly scrubbed content from the USDA site here:
+
+Original Data Source:  http://search.ams.usda.gov/farmersmarkets/
+
+
+All of the content for what is available at each location is present in the JSON, but there is no 
+filtration present on the page (yet - I may come back to this).  Also, there are quite a few 
+addresses that didn't geocode on the first couple of passes, the technique was to 
+  1) Search on the full address content from USDA
+  2) Search on the city, state, zip content from USDA
+  3) Search on the county, state, zip content from USDA
+  4) Give up.
+
+A lot of data points have strange psuedo locations in their street address field.  Many of 
+these ended up geolocated by city, and hence there are a lot of markers that sit atop one 
+another.  This makes it difficult to click on the various markers that are all (in theory) near that 
+location.
+
+-- nw,iw
